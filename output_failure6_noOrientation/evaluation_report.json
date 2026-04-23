@@ -1,0 +1,306 @@
+{
+  "extraction": {
+    "detection_rate": 0.9429,
+    "detected_frames": 198,
+    "total_frames": 210,
+    "avg_visibility": 0.7793,
+    "per_landmark_visibility": {
+      "nose": 0.9987,
+      "left_eye_inner": 0.9984,
+      "left_eye": 0.998,
+      "left_eye_outer": 0.9985,
+      "right_eye_inner": 0.9988,
+      "right_eye": 0.9989,
+      "right_eye_outer": 0.9993,
+      "left_ear": 0.9988,
+      "right_ear": 0.9987,
+      "mouth_left": 0.9972,
+      "mouth_right": 0.9974,
+      "left_shoulder": 0.9994,
+      "right_shoulder": 0.9993,
+      "left_elbow": 0.6443,
+      "right_elbow": 0.7709,
+      "left_wrist": 0.5241,
+      "right_wrist": 0.7292,
+      "left_pinky": 0.4731,
+      "right_pinky": 0.681,
+      "left_index": 0.4808,
+      "right_index": 0.6798,
+      "left_thumb": 0.4698,
+      "right_thumb": 0.6678,
+      "left_hip": 0.9997,
+      "right_hip": 0.9997,
+      "left_knee": 0.5654,
+      "right_knee": 0.5825,
+      "left_ankle": 0.6279,
+      "right_ankle": 0.6301,
+      "left_heel": 0.5277,
+      "right_heel": 0.4561,
+      "left_foot_index": 0.6327,
+      "right_foot_index": 0.5942
+    },
+    "jitter_per_landmark": {
+      "nose": {
+        "mean_mm": 12.948,
+        "max_mm": 66.337
+      },
+      "left_eye_inner": {
+        "mean_mm": 12.858,
+        "max_mm": 67.715
+      },
+      "left_eye": {
+        "mean_mm": 12.799,
+        "max_mm": 67.879
+      },
+      "left_eye_outer": {
+        "mean_mm": 12.793,
+        "max_mm": 67.379
+      },
+      "right_eye_inner": {
+        "mean_mm": 12.975,
+        "max_mm": 70.586
+      },
+      "right_eye": {
+        "mean_mm": 13.058,
+        "max_mm": 71.317
+      },
+      "right_eye_outer": {
+        "mean_mm": 12.916,
+        "max_mm": 70.33
+      },
+      "left_ear": {
+        "mean_mm": 12.294,
+        "max_mm": 66.879
+      },
+      "right_ear": {
+        "mean_mm": 12.207,
+        "max_mm": 76.191
+      },
+      "mouth_left": {
+        "mean_mm": 12.386,
+        "max_mm": 65.285
+      },
+      "mouth_right": {
+        "mean_mm": 12.467,
+        "max_mm": 69.204
+      },
+      "left_shoulder": {
+        "mean_mm": 12.757,
+        "max_mm": 63.363
+      },
+      "right_shoulder": {
+        "mean_mm": 11.638,
+        "max_mm": 64.206
+      },
+      "left_elbow": {
+        "mean_mm": 24.324,
+        "max_mm": 138.758
+      },
+      "right_elbow": {
+        "mean_mm": 22.957,
+        "max_mm": 89.598
+      },
+      "left_wrist": {
+        "mean_mm": 45.947,
+        "max_mm": 245.851
+      },
+      "right_wrist": {
+        "mean_mm": 44.365,
+        "max_mm": 175.137
+      },
+      "left_pinky": {
+        "mean_mm": 52.522,
+        "max_mm": 273.95
+      },
+      "right_pinky": {
+        "mean_mm": 50.176,
+        "max_mm": 197.662
+      },
+      "left_index": {
+        "mean_mm": 53.786,
+        "max_mm": 275.719
+      },
+      "right_index": {
+        "mean_mm": 52.287,
+        "max_mm": 210.302
+      },
+      "left_thumb": {
+        "mean_mm": 47.421,
+        "max_mm": 252.033
+      },
+      "right_thumb": {
+        "mean_mm": 46.5,
+        "max_mm": 185.292
+      },
+      "left_hip": {
+        "mean_mm": 3.092,
+        "max_mm": 17.576
+      },
+      "right_hip": {
+        "mean_mm": 3.063,
+        "max_mm": 17.99
+      },
+      "left_knee": {
+        "mean_mm": 13.688,
+        "max_mm": 65.911
+      },
+      "right_knee": {
+        "mean_mm": 11.592,
+        "max_mm": 58.5
+      },
+      "left_ankle": {
+        "mean_mm": 20.704,
+        "max_mm": 105.491
+      },
+      "right_ankle": {
+        "mean_mm": 18.215,
+        "max_mm": 92.32
+      },
+      "left_heel": {
+        "mean_mm": 21.553,
+        "max_mm": 109.094
+      },
+      "right_heel": {
+        "mean_mm": 19.043,
+        "max_mm": 93.83
+      },
+      "left_foot_index": {
+        "mean_mm": 23.193,
+        "max_mm": 111.77
+      },
+      "right_foot_index": {
+        "mean_mm": 21.147,
+        "max_mm": 98.506
+      }
+    }
+  },
+  "retargeting": {
+    "ik_error": {
+      "left_wrist_mean_mm": 77.944,
+      "left_wrist_max_mm": 305.05,
+      "left_wrist_std_mm": 57.682,
+      "right_wrist_mean_mm": 55.622,
+      "right_wrist_max_mm": 223.833,
+      "right_wrist_std_mm": 47.187
+    },
+    "joint_smoothness": {
+      "left_hip_pitch_joint": {
+        "mean_delta_rad": 0.033717,
+        "max_delta_rad": 0.145902
+      },
+      "left_hip_roll_joint": {
+        "mean_delta_rad": 0.016444,
+        "max_delta_rad": 0.096341
+      },
+      "left_hip_yaw_joint": {
+        "mean_delta_rad": 0.032754,
+        "max_delta_rad": 0.14476
+      },
+      "left_knee_joint": {
+        "mean_delta_rad": 0.032013,
+        "max_delta_rad": 0.102625
+      },
+      "left_ankle_pitch_joint": {
+        "mean_delta_rad": 0.028412,
+        "max_delta_rad": 0.143299
+      },
+      "left_ankle_roll_joint": {
+        "mean_delta_rad": 0.022753,
+        "max_delta_rad": 0.116629
+      },
+      "right_hip_pitch_joint": {
+        "mean_delta_rad": 0.026732,
+        "max_delta_rad": 0.107689
+      },
+      "right_hip_roll_joint": {
+        "mean_delta_rad": 0.0182,
+        "max_delta_rad": 0.082454
+      },
+      "right_hip_yaw_joint": {
+        "mean_delta_rad": 0.041857,
+        "max_delta_rad": 0.1445
+      },
+      "right_knee_joint": {
+        "mean_delta_rad": 0.020727,
+        "max_delta_rad": 0.104943
+      },
+      "right_ankle_pitch_joint": {
+        "mean_delta_rad": 0.023389,
+        "max_delta_rad": 0.142457
+      },
+      "right_ankle_roll_joint": {
+        "mean_delta_rad": 0.022363,
+        "max_delta_rad": 0.1155
+      },
+      "waist_yaw_joint": {
+        "mean_delta_rad": 0.023684,
+        "max_delta_rad": 0.131394
+      },
+      "waist_roll_joint": {
+        "mean_delta_rad": 0.009288,
+        "max_delta_rad": 0.06638
+      },
+      "waist_pitch_joint": {
+        "mean_delta_rad": 0.028266,
+        "max_delta_rad": 0.165181
+      },
+      "left_shoulder_pitch_joint": {
+        "mean_delta_rad": 0.067075,
+        "max_delta_rad": 0.403529
+      },
+      "left_shoulder_roll_joint": {
+        "mean_delta_rad": 0.041266,
+        "max_delta_rad": 0.19878
+      },
+      "left_shoulder_yaw_joint": {
+        "mean_delta_rad": 0.100353,
+        "max_delta_rad": 0.753091
+      },
+      "left_elbow_joint": {
+        "mean_delta_rad": 0.063125,
+        "max_delta_rad": 0.255738
+      },
+      "left_wrist_roll_joint": {
+        "mean_delta_rad": 0.013018,
+        "max_delta_rad": 0.111516
+      },
+      "left_wrist_pitch_joint": {
+        "mean_delta_rad": 0.023453,
+        "max_delta_rad": 0.111334
+      },
+      "left_wrist_yaw_joint": {
+        "mean_delta_rad": 0.004395,
+        "max_delta_rad": 0.060131
+      },
+      "right_shoulder_pitch_joint": {
+        "mean_delta_rad": 0.049064,
+        "max_delta_rad": 0.292476
+      },
+      "right_shoulder_roll_joint": {
+        "mean_delta_rad": 0.047738,
+        "max_delta_rad": 0.216541
+      },
+      "right_shoulder_yaw_joint": {
+        "mean_delta_rad": 0.082255,
+        "max_delta_rad": 0.417419
+      },
+      "right_elbow_joint": {
+        "mean_delta_rad": 0.056193,
+        "max_delta_rad": 0.34468
+      },
+      "right_wrist_roll_joint": {
+        "mean_delta_rad": 0.010696,
+        "max_delta_rad": 0.072857
+      },
+      "right_wrist_pitch_joint": {
+        "mean_delta_rad": 0.02124,
+        "max_delta_rad": 0.209084
+      },
+      "right_wrist_yaw_joint": {
+        "mean_delta_rad": 0.004486,
+        "max_delta_rad": 0.018374
+      }
+    },
+    "total_frames": 210
+  }
+}
